@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+    background-color: hsl(0, 0%, 98%);
+}
+.container{
+    padding: 50px 10px;
+}
+.reliable{
+    font-size: 26px;
+    color: hsl(229, 6%, 66%);
+    text-align: center;
+}
+h2{
+    font-size: 26px;
+    font-family: sans-serif;
+    color: hsl(234, 12%, 34%);
+}
+.tech{
+    font-size: 26px;
+    font-family: sans-serif;
+    color: hsl(234, 12%, 34%);
+    text-align: center;
+    margin: 10px 0;
+}
+.artificial{
+    font-size: 19px;
+    width: 300px;
+    color: hsl(229, 6%, 66%);
+    text-align: center;
+    margin: 20px 100px;
+}
+.border{
+    background-color: hsl(180, 62%, 55%);
+    height: 4px;
+    width: 350px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    /* margin: 100px 0; */
+}
+.box1, .box2, .box3, .box4{
+    margin: 50px 65px;
+    height: 250px;
+    width: 350px;
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.3);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+.wrap{
+    padding: 20px 25px;
+}
+.wrap p{
+    color: hsl(229, 6%, 66%);  
+    font-size: 17px; 
+    margin: 10px 0;
+}
+img{
+    margin: 60px 230px;
+}
+.border2{
+    background-color: hsl(0, 78%, 62%);
+    height: 4px;
+    width: 350px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.border3{
+    background-color: hsl(34, 97%, 64%);
+    height: 4px;
+    width: 350px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.border4{
+    background-color: hsl(212, 86%, 64%);
+    height: 4px;
+    width: 350px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+
+@media screen and (min-width: 992px){
+    .artificial{
+        margin: 0 430px;
+        text-align: center;
+        width: 430px;
+        font-size: 15px;
+    }
+    .wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .box1,.box4{
+        margin: 210px 50px;
+    }
+    .container{
+        padding: 50px 200px;
+    }
+    
+}
